@@ -3,5 +3,5 @@ body{
 	text-align: center;
 	font-size: 30px;
 	background: linear-gradient(90deg, red, darkblue);
-	text-color: white;
+	color: white;
 };
