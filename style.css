@@ -1,6 +1,6 @@
 body{
-		font-family: "Trebuchet MS";
-	};
+	font-family: "Trebuchet MS";
+};
 #grad {
- 	background-image: linear-gradient(to right, red , yellow);
+ 	background-image: linear-gradient(to right, red , blue);
 }
