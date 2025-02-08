@@ -1,5 +1,7 @@
 body{
 	font-family: "Trebuchet MS";
+	text-align: center;
+	font-size: 30px;
 };
 .gradient{
 	height: 100vh;
