@@ -3,7 +3,7 @@ body{
 	font-family: "Trebuchet MS";
 	text-align: center;
 	font-size: 30px;
-	background: linear-gradient(90deg, black, darkblue);
+	background: linear-gradient(90deg, red, darkblue);
 };
 #title{
 	color: white;
