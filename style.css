@@ -5,6 +5,14 @@ body{
 	font-size: 30px;
 	background-image: linear-gradient(90deg, red, darkblue);
 }
-#title{
+h1{
 	color: white;
+}
+h2{
+	color:white;
+	text-align: center;
+}
+h3{
+	color:white;
+	text-align: center;
 }
