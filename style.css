@@ -31,3 +31,6 @@ a:active {
   color: lightgray;
   text-decoration: underline;
 }
+#text{
+	width: 800px
+}
