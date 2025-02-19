@@ -3,20 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Suti's personal website to share content and giveaways.">
+    <meta name="description" content="Suti's personal website to share content, giveaways, and community updates.">
     <title>Suti's Website</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Add smooth scrolling behavior */
+        /* Smooth scrolling */
         html {
             scroll-behavior: smooth;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+
+        a {
+            color: #fca311;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: rgba(31, 31, 31, 0.9);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            font-size: 18px;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #intro {
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            padding: 80px 20px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .content-box {
+            background: rgba(51, 51, 51, 0.9);
+            margin: 20px auto;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+        }
+
+        /* AdSense Container */
+        .adsense-container {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: rgba(31, 31, 31, 0.9);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+                padding: 0;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Suti's Website</h1>
-        <!-- Navigation Bar -->
+        <h1>Welcome to Suti's Website</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -27,43 +127,38 @@
     </header>
 
     <section id="intro">
-        <h2>Welcome to my website!</h2>
-        <p>This is a space where I share updates, giveaways, and my journey with HTML, CSS, and JavaScript.</p>
+        <h2>Join the Community!</h2>
+        <p>Welcome to my website! Stay updated with giveaways, community news, and tech projects.</p>
         <h3>Join Milkguy's Discord Server</h3>
-        <p>Participate in giveaways and be part of the community! <a href="https://discord.gg/X6rQtG85bV" target="_blank">Click here to join</a>.</p>
-        
-        <!-- AdSense Iframe -->
-        <div class="adsense-container">
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3XRR57" width="300" height="250" frameborder="0" style="border: none;"></iframe>
-        </div>
+        <p>Be a part of the fun! <a href="https://discord.gg/X6rQtG85bV" target="_blank">Click here to join</a>.</p>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
+    <section id="about" class="content-box">
         <h2>About This Website</h2>
-        <p>I created this website after learning HTML and CSS. My goal is to make it more useful and interactive as I learn more skills like JavaScript.</p>
+        <p>This website is my personal project where I share my journey learning web development.</p>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="content-box">
         <h2>Contact Me</h2>
-        <p>If you have any suggestions or ideas, feel free to reach out! You can contact me on Discord. My username is <strong>_sutemeny</strong>.</p>
+        <p>Got ideas or suggestions? Reach out on Discord: <strong>_sutemeny</strong>.</p>
     </section>
 
-    <!-- Milkguy's Server Section -->
-    <section id="milkguy">
-        <h2>Join Milkguy's Server</h2>
-        <p>Participate in giveaways and engage with the community on Milkguy's Discord Server! <a href="https://discord.gg/X6rQtG85bV" target="_blank">Click here to join</a>.</p>
+    <section id="milkguy" class="content-box">
+        <h2>Milkguy's Server</h2>
+        <p>Join giveaways and interact with the community! <a href="https://discord.gg/X6rQtG85bV" target="_blank">Click here to join</a>.</p>
     </section>
+
+    <div class="adsense-container">
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5070052842078448" data-ad-slot="9957505827" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
 
     <footer>
         <p>&copy; 2025 Suti's Website. All Rights Reserved.</p>
     </footer>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5070052842078448" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5070052842078448" data-ad-slot="9957505827" data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 </body>
 </html>
